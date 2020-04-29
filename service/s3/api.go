@@ -20892,7 +20892,7 @@ type ListMultipartUploadsOutput struct {
 
 	// Container for elements related to a particular multipart upload. A response
 	// can contain zero or more Upload elements.
-	Uploads []*MultipartUpload `locationName:"Upload" type:"list" flattened:"true"`
+	Uploads []*MultipartUpload `locationName:"Contents" type:"list" flattened:"true"`
 }
 
 // String returns the string representation
